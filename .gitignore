@@ -25,6 +25,13 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
-#Security Config
+# Deployment intermediates
+deploy
+
+# Compiled code (Minified, concatenated, compiled JS/CSS)
+build
+bin
+
+# Security Config
 .appconfig/security.config
 .appconfig/security.config.json

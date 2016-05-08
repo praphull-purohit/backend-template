@@ -3,10 +3,13 @@
 	"main" : "app.js",
 	"description" : "A template Express.js backend with E-mail and phone (Twitter Digits) based authentication and a basic Test Suite",
 	"version" : "0.0.1",
-	"homepage" : "https://simplebackend.praphull.com",
+	"homepage" : "https://web-api.praphull.com",
 	"private" : true,
 	"readme" : "README.md",
-	"license" : "MIT",
+	"licenses" : {
+		"type" : "MIT",
+		"url" : "https://raw.github.com/praphull/backend-template/master/LICENSE"
+	}
 	"repository" : {
 		"type" : "git",
 		"url" : "git+https://github.com/praphull/backend-template.git"

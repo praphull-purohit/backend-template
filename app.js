@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({
 	}));
 
 app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+app.set('view engine', 'pug');
 app.use(require('serve-favicon')(path.join(__dirname, 'public', 'img', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -119,6 +119,7 @@ if (app.get('env') === 'development') {
 	app.use(function (err, req, res, next) {
 		res.status(err.status || 500);
 		res.render('error', {
+			title : config.app.name,
 			message : err.message,
 			error : err
 		});
@@ -130,6 +131,7 @@ if (app.get('env') === 'development') {
 	app.use(function (err, req, res, next) {
 		res.status(err.status || 500);
 		res.render('error', {
+			title : config.app.name,
 			message : err.message,
 			error : {}
 		});

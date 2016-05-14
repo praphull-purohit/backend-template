@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title {title}: Error Stack
+    link (rel='stylesheet', href='/css/err.css')
+  body
+    h1
+	  Error page
+    p
+	  Error message: {message}
+    p
+    	Error Stack:
+    	pre
+		   {error.stack}

@@ -1,52 +1,50 @@
 {
-	"name" : "backend-template",
-	"main" : "app.js",
-	"description" : "A template Express.js backend with E-mail and phone (Twitter Digits) based authentication and a basic Test Suite",
-	"version" : "0.0.1",
-	"homepage" : "https://web-api.praphull.com",
-	"private" : true,
-	"readme" : "README.md",
-	"licenses" : {
-		"type" : "MIT",
-		"url" : "https://raw.github.com/praphull/backend-template/master/LICENSE"
-	}
-	"repository" : {
-		"type" : "git",
-		"url" : "git+https://github.com/praphull/backend-template.git"
-	},
-	"engines" : {
-		"node" : ">= 0.6"
-	},
-	"scripts" : {
-		"start" : "node app.js",
-		"test" : "mocha"
-	},
-	"dependencies" : {
-		"bcrypt-nodejs" : "0.0.3",
-		"body-parser" : "1.15.0",
-		"cookie-parser" : "1.4.1",
-		"cors" : "2.7.1",
-		"ejs" : "2.4.1",
-		"express" : "4.13.4",
-		"jsonwebtoken" : "6.2.0",
-		"log4js" : "0.6.35",
-		"loggly" : "1.1.0",
-		"method-override" : "2.3.5",
-		"mongoose" : "4.4.14",
-		"log4js" : "0.6.35",
-		"loggly" : "1.1.0",
-		"request" : "2.72.0",
-		"serve-favicon" : "~2.3.0",
-		"underscore" : "1.8.3"
-	},
-	"devDependencies" : {
-		"mocha" : "2.4.5",
-		"should" : "8.3.1",
-		"supertest" : "1.2.0"
-	},
-	"author" : {
-		"name" : "Praphull Purohit",
-		"email" : "me@praphull.com",
-		"url" : "http://praphull.com"
-	}
+  "name": "backend-template",
+  "main": "app.js",
+  "description": "A template Express.js backend with E-mail and phone (Twitter Digits) based authentication and a basic Test Suite",
+  "version": "0.0.2",
+  "homepage": "https://web-api.praphull.com",
+  "private": true,
+  "readme": "README.md",
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/praphull/backend-template/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praphull/backend-template.git"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.15.1",
+    "cookie-parser": "1.4.1",
+    "cors": "2.7.1",
+    "express": "4.13.4",
+    "jsonwebtoken": "6.2.0",
+    "log4js": "0.6.35",
+    "loggly": "1.1.0",
+    "method-override": "2.3.5",
+    "mongoose": "4.4.17",
+    "pug": "2.0.0-alpha7",
+    "request": "2.72.0",
+    "serve-favicon": "~2.3.0",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "should": "8.3.1",
+    "supertest": "1.2.0"
+  },
+  "author": {
+    "name": "Praphull Purohit",
+    "email": "me@praphull.com",
+    "url": "http://praphull.com"
+  }
 }

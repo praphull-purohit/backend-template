@@ -30,7 +30,7 @@
     "jsonwebtoken": "6.2.0",
     "log4js": "0.6.35",
     "loggly": "1.1.0",
-    "method-override": "2.3.5",
+    "method-override": "3.0.0",
     "mongoose": "5.7.7",
     "pug": "2.0.0-alpha7",
     "request": "2.72.0",

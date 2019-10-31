@@ -31,7 +31,7 @@
     "log4js": "0.6.35",
     "loggly": "1.1.0",
     "method-override": "2.3.5",
-    "mongoose": "4.4.17",
+    "mongoose": "5.7.7",
     "pug": "2.0.0-alpha7",
     "request": "2.72.0",
     "serve-favicon": "~2.3.0",
